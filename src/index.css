@@ -2,6 +2,8 @@
 /* SPDX-License-Identifier: MIT-0 */
 
 /* Reset */
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
 *,
 *::before,
 *::after {
@@ -66,13 +68,13 @@ select {
 /* Variables */
 :root {
   /* Fonts */
-  --font-sans: "Inter", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+  --font-sans: "Outfit", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
     Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif,
     "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-  --font-serif: "Iowan Old Style", "Apple Garamond", Baskerville,
+  --font-serif: "Outfit", "Iowan Old Style", "Apple Garamond", Baskerville,
     "Times New Roman", "Droid Serif", Times, "Source Serif Pro", serif,
     "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-  --font-mono: Consolas, monaco, "Ubuntu Mono", "Liberation Mono", "Courier New",
+  --font-mono: "Outfit",Consolas, monaco, "Ubuntu Mono", "Liberation Mono", "Courier New",
     Courier, monospace;
 
   /* Color tokens */
@@ -114,7 +116,7 @@ select {
   --color-bg-destructive: var(--color--destructive);
   --color-bg-header: var(--color-bg-body);
   --color-bg-modal: var(--color-bg-body);
-  --color-bg-modal-overlay: var(--color--secondary);
+  --color-bg-modal-overlay: var(--color--tertiary);
   --color-bg-chat: var(--color-bg-body);
   --color-bg-chat-bubble: var(--color-bg-alt);
   --color-bg-player: var(--color-bg-alt);
@@ -928,7 +930,7 @@ em {
   position: relative !important;
 }
 .top-0 {
-  top: 34px !important;
+  top: 40px !important;
 }
 .bottom-0 {
   bottom: 0 !important;
@@ -1036,7 +1038,7 @@ header h1 {
 
 .modal__overlay {
   position: absolute;
-  top: 0;
+  top: 22px;
   right: 0;
   bottom: 0;
   left: 0;

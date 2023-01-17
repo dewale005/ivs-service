@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&display=swap');
 *,
 *::before,
 *::after {
@@ -83,8 +84,7 @@ body {
 
 body {
   overflow: hidden;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-    Ubuntu, "Helvetica Neue", sans-serif;
+  font-family: "Outfit";
   user-select: none;
 }
 
@@ -236,7 +236,7 @@ h2 {
   position: relative !important;
 }
 .top-0 {
-  top: 0 !important;
+  top: 40px !important;
 }
 .bottom-0 {
   bottom: 0 !important;
